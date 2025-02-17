@@ -1,0 +1,1 @@
+This repository demonstrates a common mistake in React class components: directly mutating the state object instead of using `this.setState()`. The `bug.js` file shows the incorrect implementation that fails to trigger re-renders.  The `bugSolution.js` file provides the correct implementation which uses `setState()` for proper state updates and re-rendering.
